@@ -17,6 +17,8 @@
     text-align: center;
     border-radius: 20px;
     width: fit-content;
+    position: relative;
+    z-index: 2;
 }
 
 .Light {
@@ -55,7 +57,7 @@
 
 .black-line {
     width: 20px;
-    height: 350px;
+    height: 400px;
     background-color: #000000; /* Negro */
     margin-top: -540px;
     position: absolute;
